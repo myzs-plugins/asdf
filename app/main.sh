@@ -27,6 +27,4 @@ if _myzs:internal:checker:command-exist "asdf"; then
     autoload -U add-zsh-hook
     add-zsh-hook precmd asdf_update_java_home
   fi
-else
-  _myzs:internal:failed
 fi
